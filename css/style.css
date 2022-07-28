@@ -1,0 +1,215 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    background-color: #4C3575;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+    background-image: linear-gradient(120deg, rgba(224, 195, 252, 0.274) 0%, rgba(184, 88, 184, 0.733) 100%), url(https://live-production.wcms.abc-cdn.net.au/bbb9b76311f3931fc7b29a9ce2ca0e53?impolicy=wcms_crop_resize&cropH=518&cropW=921&xPos=0&yPos=0&width=862&height=485);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    color: white;
+    padding: 2rem 0rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 45%;
+}
+
+.logotext {
+    font-family: 'Chivo', sans-serif;
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color:white;
+    text-shadow: 0 0 30px #fff;
+}
+
+.logosub {
+    font-family: 'Chivo', sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color:white;;
+    text-shadow: 0 0 30px #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    text-decoration: none;
+    padding:1.5rem;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.hero {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7%;
+    flex-wrap: no-wrap;
+    color: white;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    font-family: archivo-black, sans-serif;
+}
+
+.hero-sub {
+    font-size: 20px;
+    padding-bottom: 3rem;
+}
+
+button {
+    background-color: #FF8BA0;
+    color:white;
+    padding: 1rem 3rem 1rem 3rem;
+    border: solid 1.5px white;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-family:arimo, sans-serif;
+    letter-spacing: 2px;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: /* #DBCBBD */ white;
+}
+
+.info-title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    padding-top: 3rem;
+    padding-bottom:2rem;
+}
+
+.info-section {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-img {
+    width: 90%;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.info-text {
+    font-family: arimo, sans-serif;
+    align-self: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align:center;
+}
+
+.quote-section {
+    margin-top: 5rem;
+    background-color:  #DBCBBD;
+}
+
+.quote {
+    font-family: arimo, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    padding: 8rem 3rem 4rem 3rem; 
+}
+
+.author {
+    font-family: arimo, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0rem 0rem 8rem 30rem;
+}
+
+.signup {
+    background-color: #FF8BA0;
+    margin: 5% 5%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+    font-family: arimo, sans-serif;
+    align-items:center;
+    box-shadow: 0 0 8px black;
+}
+
+.signup-text {
+    font-size: 20px;
+    text-align: start;
+    color: black;
+    font-weight: bold;
+}
+
+.signup-bold {
+    font-size: 25px;
+    text-align: start;
+    color: black;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+.signup-button {
+    background-color: #FF8BA0;
+    color:black;
+    padding: 1rem 3rem 1rem 3rem;
+    border: solid 1.5px black;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-family: arimo, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #4C3575;
+    color: white;
+    font-family: arimo, sans-serif;
+    padding: 3.5rem;
+    text-align: center;
+    font-size: 30px;
+}
